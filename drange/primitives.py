@@ -107,7 +107,7 @@ def Walk_length(drange):
   return amt
 
 def StrRange(_str):
-  from drange import Range
+  from . import Range
   return Range(*list(_str))
 
 def PyRange(_drange):
