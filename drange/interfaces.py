@@ -187,7 +187,7 @@ class ForwardRange(InputRange):
     _memorypool.Slice(sav._ptr)
     return sav
   def __eq__(s, o):
-    from drange_primitives import Is_input, Is_forward
+    from .primitives import Is_input, Is_forward
     if ( Is_forward(s) ): savs = s.Save()
     if ( Is_forward(o) ): savo = o.Save()
     if ( not Is_input(o) ):
