@@ -1,7 +1,7 @@
 """This module contains many utilities for working with custom ranges, such as
    static introspection, along with convenience functions for manipulating
    ranges"""
-from drange_interfaces import *
+from .interfaces import *
 
 def Is_input(drange):
   return (hasattr(drange, "Empty") and hasattr(drange, "Front"))

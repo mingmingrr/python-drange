@@ -1,7 +1,7 @@
 "Many useful chaining and lazy-eval functions that operate on ranges"
-from drange_primitives import *
-from drange_interfaces import *
-from drange           import *
+from .primitives import *
+from .interfaces import *
+from .           import *
 
 # I need to figure out how to remove duplicate from here and drange...
 class UFCS_Mixin(object):

@@ -1,6 +1,6 @@
 """ An object-based interface for ranges [with memory pool] """
-from drange_primitives import *
-from drange_interfaces import *
+from .primitives import *
+from .interfaces import *
 
 class __MemoryPool:
   """
